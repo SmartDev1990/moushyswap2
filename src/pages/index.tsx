@@ -6,11 +6,7 @@ import { SWRConfig } from 'swr'
 import { DeBankTvlResponse } from 'hooks/api'
 import { bitQueryServerClient, infoServerClient } from 'utils/graphql'
 import { getBlocksFromTimestamps } from 'views/Info/hooks/useBlocksFromTimestamps'
-<<<<<<< HEAD
 import Home from '../views/Home'
-=======
-import Home from '../views/swap'
->>>>>>> eb2af42c22e3cac2de15b247e43d75f51d99e16b
 
 const IndexPage = ({ totalTx30Days, addressCount30Days, tvl }) => {
   return (

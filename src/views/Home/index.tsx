@@ -64,6 +64,14 @@ const Home: React.FC = () => {
       >
         <Hero />
       </StyledHeroSection>
+      <PageSection
+        innerProps={{ style: HomeSectionContainerStyles }}
+        background={theme.colors.background}
+        index={2}
+        hasCurvedDivider={false}
+      >
+        <CakeDataRow />
+      </PageSection>
     </>
   )
 }

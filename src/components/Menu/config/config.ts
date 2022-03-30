@@ -86,10 +86,10 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
     icon: NftIcon,
     fillIcon: NftFillIcon,
     items: [
-      {
-        label: t('Coming Soon'),
-        href: '',
-      },
+      // {
+      //   label: t('Coming Soon'),
+      //   href: '',
+      // },
   //     {
   //       label: t('Overview'),
   //       href: `${nftsBaseUrl}`,
@@ -110,10 +110,10 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
     icon: MoreIcon,
     hideSubNav: false,
     items: [
-      {
-       label: t('Coming Soon'),
-        href: '',
-      },
+    //   {
+    //    label: t('Coming Soon'),
+    //     href: '',
+    //   },
 //       {
 //         label: t('IFO'),
 //         href: '/ifo',
